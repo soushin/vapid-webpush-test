@@ -1,0 +1,11 @@
+#subscribe::before {
+    content: "subscribe";
+}
+
+#subscribe.subscribing::before {
+    content: "unsubscribe";
+}
+
+#push::before {
+    content: "send";
+}

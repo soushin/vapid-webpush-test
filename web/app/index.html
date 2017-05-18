@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>FCM/GCM Web Push Test</title>
+    <script src="js/webpush.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+
+<h1>Web Push Test</h1>
+
+<fieldset>
+    <legend>Subscribe Push Notification</legend>
+    <button id="subscribe" disabled></button>
+
+    <div id="status"></div>
+</fieldset>
+
+<fieldset>
+    <legend>Push Notification Setting</legend>
+    <label for="message">message:</label> <input type="text" id="message" value="web push notification!" disabled><br>
+    <label for="url">url:</label> <input type="text" id="url" value="https://freshlive.tv/" disabled><br>
+    <label for="icon">icon:</label> <select id="icon" disabled><option value="image/ic_alarm_black_48dp_2x.png">alarm</option><option value="image/ic_favorite_black_48dp_2x.png">favorite</option><option value="image/ic_info_outline_black_48dp_2x.png">info</option></select><br>
+    <button id="push" disabled></button>
+</fieldset>
+
+</body>
+</html>

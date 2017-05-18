@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  server:
+    container_name: app_server
+    build: ./server
+    ports:
+      - 8080:8080
+
+  web:
+    container_name: web_server
+    build: ./web
+    ports:
+      - 80:80
+
